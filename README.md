@@ -21,9 +21,8 @@ npm install
 {
     "token": "Token for Discord bot",
     "clientId": "Client ID of Discord bot.",
-    "ipAddr": "http://localhost", // サーバアドレス
+    "ipAddr": "http://localhost",
 
-    //各種プロバイダーの設定
     "JsonRpc": {
         "0x1": "Ethereum Network",
         "0x5": "Goerli Test Network",
@@ -32,8 +31,8 @@ npm install
     }
 }
 ```
-このBotではMetamaskを使用するシーンが発生する為、Express.jsを使用してWebサーバを立ち上げることが必要です。
-そして各種のプロバイダの設定が必要です。これでBotを使用することが可能になります。
+このBotではMetamaskを使用するシーンが発生する為、Express.jsを使用したWebサーバの立ち上げが行われます。その為、IPアドレスの設定が必要です。
+また、`JsonRpc`には各種ネットワークのJSON-RPCプロバイダーのURLを設定してください。
 
 ### tokenlist.jsonの設定 (任意)
 各種トークンのアドレスを定義しているJsonファイルです。
