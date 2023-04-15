@@ -1,0 +1,12 @@
+{
+    "token": "Token for Discord bot",
+    "clientId": "Client ID of Discord bot.",
+    "ipAddr": "http://localhost", 
+    
+    "JsonRpc": {
+        "0x1": "Ethereum Network",
+        "0x5": "Goerli Test Network",
+        "0x89": "Polygon Network", 
+        "0x250": "Aster Network"
+    }
+}
